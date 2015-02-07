@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\gamescripts\guiscript.cs">
+    <Files>
+      <File FileName="Assets\gamescripts\guiscript.cs" Line="53" Column="6" />
+      <File FileName="Assets\gamescripts\LvlHolder.cs" Line="1" Column="1" />
+      <File FileName="Assets\gamescripts\Health.cs" Line="16" Column="29" />
+      <File FileName="Assets\gamescripts\vfxhit.cs" Line="1" Column="1" />
+      <File FileName="Assets\worldassets\powerups\scripts\HealthPotion.cs" Line="1" Column="1" />
+      <File FileName="Assets\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example-thirdPerson_DirectEventMode\JoystickEvent.cs" Line="42" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\AdvTopics-GG1\GraveGirl_01\SUAudioManager\Assets\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example-thirdPerson_DirectEventMode\JoystickEvent.cs" line="16" />
+      <Breakpoint file="E:\AdvTopics-GG1\GraveGirl_01\SUAudioManager\Assets\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example-thirdPerson_DirectEventMode\JoystickEvent.cs" line="10" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
