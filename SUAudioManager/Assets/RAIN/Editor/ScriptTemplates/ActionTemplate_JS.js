@@ -1,25 +1,20 @@
-﻿import RAIN.Core;
-import RAIN.Action;
+﻿import RAIN.Action;
+import RAIN.Core;
 
 @RAINAction
 class ActionTemplate_JS extends RAIN.Action.RAINAction
 {
-	function newclass()
-	{
-		actionName = "ActionTemplate_JS";
-	}
-	
-	function Start(ai:AI):void
+    function Start(ai:RAIN.Core.AI):void
 	{
         super.Start(ai);
 	}
 
-	function Execute(ai:AI):ActionResult
+    function Execute(ai:RAIN.Core.AI):ActionResult
 	{
         return ActionResult.SUCCESS;
 	}
 
-   	function Stop(ai:AI):void
+	function Stop(ai:RAIN.Core.AI):void
 	{
         super.Stop(ai);
 	}

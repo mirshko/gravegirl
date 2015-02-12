@@ -2,7 +2,9 @@ Shader "RAIN/WaypointShader"
 {
     SubShader
     {
+		Cull Off
 		Offset -2, -2
+
 		Pass
 		{
 			CGPROGRAM
