@@ -1,22 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class vfxhit : MonoBehaviour {
-
+public class vfxhit : MonoBehaviour 
+{
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 	
 	}
 	public void onGotHit()
 	{
 		particleSystem.Stop();
 		particleSystem.Play();
-
-
 	}
 }

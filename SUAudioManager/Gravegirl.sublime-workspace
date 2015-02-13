@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"d",
+				"div	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/AudioManager.cs",
+			"settings":
+			{
+				"buffer_size": 920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/PlaySound.cs",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Add Channel"
+			],
+			[
+				"lor	",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 849.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/Health.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/CameraFade.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/guiscript.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/Label.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/LvlHolder.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/scenefadeinout.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/ThirdPersonCamera.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/ThirdPersonController.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/vfxhit.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Gravegirl.sublime-project",
+		"/Users/jreiner/Documents/GitHub/Portfolio/Portfolio.sublime-project",
+		"/Users/jreiner/Documents/GitHub/Portfolio-Site/index.html",
+		"/Users/jreiner/Documents/GitHub/Project-Wonka/index.html",
+		"/Users/jreiner/Documents/GitHub/Project-Wonka/js/init.js",
+		"/Users/jreiner/Documents/GitHub/Project-Wonka/css/materialize.css",
+		"/Users/jreiner/Documents/GitHub/Project-Wonka/css/materialize.min.css",
+		"/Users/jreiner/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+			"index.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"brown",
+			"blue.darken-4",
+			"#0d47a1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"black"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/AudioManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/PlaySound.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Gravegirl.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

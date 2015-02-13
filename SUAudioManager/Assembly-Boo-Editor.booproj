@@ -87,14 +87,14 @@
  <Reference Include="RAINEditor">
  <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
  </Reference>
+ <Reference Include="RAINMetaformEditor">
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
+ </Reference>
  <Reference Include="RAINUpdater">
  <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINUpdater.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="RAINMetaformEditor">
- <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LvlHolder : MonoBehaviour {
+public class LvlHolder : MonoBehaviour 
+{
 
 	// Use this for initialization
 	public int lvl = 0;

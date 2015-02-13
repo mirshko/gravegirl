@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 
-
 [RequireComponent (typeof (Collider))]
 public class Label : MonoBehaviour
 {
@@ -20,7 +19,8 @@ public class Label : MonoBehaviour
 
 	private Health myHealth = null;
 
-	void Start () {
+	void Start () 
+	{
 		if (guiCamera == null)
 		{
 			guiCamera = Camera.main;

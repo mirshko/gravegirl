@@ -19,7 +19,8 @@ public class guiscript : MonoBehaviour {
 
 
 	// Use this for initialization
-	IEnumerator WaitandStartMusic(float waitTime) {
+	IEnumerator WaitandStartMusic(float waitTime) 
+	{
 		//call like this:
 		//StartCoroutine(WaitandStartMusic(2.0F));
 		
@@ -28,14 +29,11 @@ public class guiscript : MonoBehaviour {
 
 		if(theplayer != null)
 		{
-
 		
 			//playerhealth = theplayer.GetComponent<Health>();
 
 		//	GameObject joy = GameObject.FindGameObjectWithTag("GameController");
 		//	if(joy != null)joy.SetActive(true);
-
-
 
 		}
 		else
