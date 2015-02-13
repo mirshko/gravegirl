@@ -5,12 +5,13 @@ using FMOD.Studio;
 enum AudioType //Enumerator 
 {
 	SFX,
+	Footsteps,
 	Music,
 	VO,
 	IFX,
 	UI,
 	Ambience,
-	Other
+	Misc
 };
 
 }
