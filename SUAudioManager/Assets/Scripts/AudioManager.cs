@@ -2,6 +2,17 @@
 using System.Collections;
 using FMOD.Studio;
 
+enum AudioType{
+	SFX,
+	Music,
+	VO,
+	IFX,
+	UI,
+	Ambience,
+	Other
+};
+
+}
 public class AudioManager : MonoBehaviour 
 {
 	//Variables
