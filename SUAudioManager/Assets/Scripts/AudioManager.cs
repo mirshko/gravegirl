@@ -2,7 +2,8 @@
 using System.Collections;
 using FMOD.Studio;
 
-enum AudioType{
+enum AudioType //Enumerator 
+{
 	SFX,
 	Music,
 	VO,
