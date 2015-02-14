@@ -1,17 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using FMOD.Studio;
 
 public class PlaySound : MonoBehaviour
 {
-	//Variables
-
-	void Start () 
+	void PlayMyEmitter()
 	{
-	
-	}
+		string fstring = gameObject.transform.parent.gameObject.GetHashCode().ToString(); //Grabs Hash Code Of Parent Object And Assigns It To The fstring Variable
 
-	void Update () 
-	{
-	
+		AudioManager.PlayEmitter(fstring); //Plays Emitter From Parent
 	}
 }

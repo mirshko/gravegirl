@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"pl",
+				"play	WebCamTexture.*()"
+			],
+			[
+				"Emitt",
+				"EmitterToPlay"
+			],
+			[
+				"emitter",
+				"emitterlist"
+			],
+			[
+				"FMOD",
+				"FMOD_StudioEventEmitter"
+			],
+			[
 				"d",
 				"div	Tag"
 			]
@@ -11,22 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Assets/Scripts/AudioManager.cs",
-			"settings":
-			{
-				"buffer_size": 920,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Assets/Scripts/PlaySound.cs",
-			"settings":
-			{
-				"buffer_size": 152,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -80,6 +80,8 @@
 	],
 	"file_history":
 	[
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/AudioManager.cs",
+		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/PlaySound.cs",
 		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/Health.cs",
 		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/CameraFade.cs",
 		"/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/Scripts/guiscript.cs",
@@ -100,7 +102,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -137,67 +139,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Assets/Scripts/AudioManager.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 920,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								494,
-								494
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Assets/Scripts/PlaySound.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								99,
-								99
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
