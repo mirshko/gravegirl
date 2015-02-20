@@ -3,17 +3,18 @@
 The GitHub repo for the Gravegirl **GAME-4400-W07** Engine Audio class project. This project focuses on implementing audio into this existing game project using the FMOD Studio tool. If time allows certain polishing items will be implemented for niceness!
 
 # Tools
- - **Unity** *4.6.2*
- - **FMOD Studio** *1.05.12*
- - **Trello** *For Kanban*
- - **Gitter.IM** *For Group Chat*
+- **Unity** *4.6.2*
+- **FMOD Studio** *1.05.12*
+- **Gitter.IM** *For Group Chat*
+- **Trello** *For Kanban*
+
 
 # Team
- - **Management Bros**
+- **Management Bros**
   - Stephen Digregorio
   - Jeff Reiner
- - **Sound Bros**
- - **Music Bros**
- - **Dev Bros**
+- **Sound Bros**
+- **Music Bros**
+- **Dev Bros**
   - Stephen Digregorio
   - Jeff Reiner
