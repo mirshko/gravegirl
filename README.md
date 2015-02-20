@@ -1,4 +1,4 @@
-# Gravegirl [![Join the chat at https://gitter.im/ThereFour/Gravegirl](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ThereFour/Gravegirl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Gravegirl [![Join the chat at https://gitter.im/IFSTREAM/Gravegirl](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IFSTREAM/Gravegirl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 The GitHub repo for the Gravegirl Advanced Topics class project. This project is soley about implementing audio into this project using the FMOD Studio tool.
 
@@ -13,8 +13,10 @@ The GitHub repo for the Gravegirl Advanced Topics class project. This project is
 
 # Teams
  - Management Bros
+  - Stephen Digregorio
   - Jeff Reiner
  - Sound Bros
  - Music Bros
  - Dev Bros
-
+  - Stephen Digregorio
+  - Jeff Reiner
