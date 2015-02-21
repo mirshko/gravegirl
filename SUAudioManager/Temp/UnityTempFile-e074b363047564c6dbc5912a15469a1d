@@ -1,0 +1,106 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll'
+-r:'Assets/RAIN/RAIN.dll'
+-r:'Assets/RAIN/RAINMetaform.dll'
+-define:UNITY_4_6_2
+-define:UNITY_4_6
+-define:UNITY_STANDALONE_OSX
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_4_6_FEATURES
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:UNITY5_SCRIPTING_IN_UNITY4
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_MONO
+'Assets/AI/Actions/AIDoDamage.cs'
+'Assets/EasyTouch/Example/C# Example/Example for EasyButton/Bullet.cs'
+'Assets/EasyTouch/Example/C# Example/Example for EasyButton/ETPlayer.cs'
+'Assets/EasyTouch/Example/C# Example/Example for EasyButton/ManualControl.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyJoystick/Example-thirdPerson_DirectEventMode/JoystickEvent.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyJoystick/Example_FirstPerson_DirectMode/GUIFirstDirect.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyJoystick/ExitButton.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-2D/Monster.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-FreeCam/FreeCam.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-FreeCam/GuiCam.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-ManipulationImage/GuiPhoto.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-ManipulationImage/Photo.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-MultiLayer/GuiLayer.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-MultiLayer/TouchLayer.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-Multiplefingers/GuiMultiFinger.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-Multiplefingers/ObjectTouch.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-Multiplefingers/ScreenTouch.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-Multiplefingers/SlowRotate.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-OneFinger/DoubleTap.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-OneFinger/Drag.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-OneFinger/GuiOneFinger.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-OneFinger/LongTap.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-OneFinger/Swipe.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-OneFinger/Tap.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-OneFinger/TouchStart.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-StartMenu/GuiStartMenu.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/GuiTwoFinger.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/Pinch.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/Twist.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/TwoDoubleTap.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/TwoDrag.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/TwoLongTap.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/TwoSwipe.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/TwoTap.cs'
+'Assets/EasyTouch/Example/C# Example/Examples for EasyTouch/Example-TwoFinger/TwoTouchStart.cs'
+'Assets/EasyTouch/Plugins/ECamera.cs'
+'Assets/EasyTouch/Plugins/EasyButton.cs'
+'Assets/EasyTouch/Plugins/EasyJoystick.cs'
+'Assets/EasyTouch/Plugins/EasyTouch.cs'
+'Assets/EasyTouch/Plugins/EasyTouchInput.cs'
+'Assets/EasyTouch/Plugins/Finger.cs'
+'Assets/EasyTouch/Plugins/Gesture.cs'
+'Assets/EasyTouch/Plugins/MonoSingleton.cs'
+'Assets/EasyTouch/Plugins/MovingJoystick.cs'
+'Assets/EasyTouch/Plugins/VirtualScreen.cs'
+'Assets/EasyTouch/Plugins/_C#-Event-Template/C_EasyButtonTemplate.cs'
+'Assets/EasyTouch/Plugins/_C#-Event-Template/C_EasyJoystickTemplate.cs'
+'Assets/EasyTouch/Plugins/_C#-Event-Template/C_EasyTouchTemplate.cs'
+'Assets/Scripts/AudioManager.cs'
+'Assets/Scripts/CameraFade.cs'
+'Assets/Scripts/Health.cs'
+'Assets/Scripts/Label.cs'
+'Assets/Scripts/LvlHolder.cs'
+'Assets/Scripts/PlaySound.cs'
+'Assets/Scripts/ThirdPersonCamera.cs'
+'Assets/Scripts/ThirdPersonController.cs'
+'Assets/Scripts/guiscript.cs'
+'Assets/Scripts/scenefadeinout.cs'
+'Assets/Scripts/vfxhit.cs'
+'Assets/World Assets/powerups/scripts/HealthPotion.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
