@@ -17,6 +17,7 @@ The GitHub repo for the Gravegirl **GAME-4400-W07** Engine Audio class project. 
 - **Sound Bros**
   - Max Meisel 
 - **Music Bros**
+  - Nick Gototweski
 - **Dev Bros**
   - Stephen Digregorio
   - Jeff Reiner
