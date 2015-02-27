@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using FMOD.Studio;
 
@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
 {
 	//Variables
 	private static Hashtable emitterlist = null;
+
 
 	//TODO
 	//Variables texture, type;
@@ -24,13 +25,15 @@ public class AudioManager : MonoBehaviour
 
 	void Start () 
 	{
+
+
 		emitterlist = new Hashtable();
 
-		FMOD_StudioEventEmitter [] emitters = FindObjectsOfType (typeof(FMOD_StudioEventEmitter)) as FMOD_StudioEventEmitter[];
+		FMOD_StudioEventEmitter [] emitters = FindObjectsOfType (typeof(FMOD_StudioEventEmitter)) as FMOD_StudioEventEmitter[]; //Find all FMOD Emitters
 
 		int iemittercount = 0;
 
-		foreach (FMOD_StudioEventEmitter emitter in emitters) //Finds The FMOD Emitters?
+		foreach (FMOD_StudioEventEmitter emitter in emitters) //for each FMOD emitter found 
 		{
 			if (emitter.asset != null)
 			{
@@ -39,9 +42,9 @@ public class AudioManager : MonoBehaviour
 	            //emitter.CacheEventInstance();
 	            // add the emitter to the hash..
 
-	            string estring = emitter.gameObject.transform.parent.gameObject.GetHashCode().ToString();
-
-	            emitterlist.Add(estring,emitter);
+				string estring = (emitter.gameObject.transform.parent.gameObject.GetHashCode() + "-" + emitter.asset.name).ToString();
+				
+				emitterlist.Add(estring,emitter);
 	        }
    		}
 	}
@@ -58,11 +61,21 @@ public class AudioManager : MonoBehaviour
 
 	void Update () 
 	{
-		
+
+
+		if (Input.GetKeyDown ("4"))
+		{
+			DumpHash(emitterlist);
+		}
+
 	}
 
-	void DumpHash ()
+	void DumpHash (Hashtable HashtableHold)
 	{
-		
+		HashtableHold.Clear ();
 	}
+
+
+	                    
 }
+
