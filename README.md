@@ -19,6 +19,7 @@ The GitHub repo for the Gravegirl **GAME-4400-W07** Engine Audio class project. 
   - Max Meisel 
   - Anthony Popp
 - **Music Bros**
+  - Justin Hogue
   - Nick Gototweski
   - James French
 - **Dev Bros**
