@@ -17,6 +17,7 @@ The GitHub repo for the Gravegirl **GAME-4400-W07** Engine Audio class project. 
   - Darien Harrison
 - **Sound Bros**
   - Max Meisel 
+  - Anthony Popp
 - **Music Bros**
   - Nick Gototweski
 - **Dev Bros**
