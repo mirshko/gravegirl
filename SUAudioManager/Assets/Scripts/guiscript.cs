@@ -26,7 +26,10 @@ public class guiscript : MonoBehaviour {
 		
 		yield return new WaitForSeconds(waitTime);
 		//play music here..
+		AudioManager.setType(gameObject.transform.parent.gameObject.GetHashCode() + "-" + "music", (float)1);
 
+		AudioManager.PlayEmitter (gameObject.transform.parent.gameObject.GetHashCode () + "-" + "music");
+		AudioManager.PlayEmitter (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "ambience");
 		if(theplayer != null)
 		{
 		

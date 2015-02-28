@@ -6,6 +6,9 @@ public class AudioManager : MonoBehaviour
 {
 	//Variables
 	private static Hashtable emitterlist = null;
+	private static Hashtable textureParam = null;
+	private static Hashtable typeParam = null;
+	private static FMOD_StudioSystem defaultStudioSystem = null;
 
 
 	//TODO
@@ -13,14 +16,14 @@ public class AudioManager : MonoBehaviour
 
 	public enum AudioType //Enumerators for sound types
 	{
-		SFX,
-		FOOTSTEPS,
-		MUSIC,
+		footsteps,
+		music,
 		VO,
 		IFX,
-		UI,
-		AMBIENCE,
-		MISC
+		VFX,
+		ambience,
+		movement,
+		death
 	};
 
 	void Start () 
@@ -28,6 +31,10 @@ public class AudioManager : MonoBehaviour
 
 
 		emitterlist = new Hashtable();
+		typeParam = new Hashtable ();
+		textureParam = new Hashtable ();
+
+		defaultStudioSystem = FMOD_StudioSystem.instance;
 
 		FMOD_StudioEventEmitter [] emitters = FindObjectsOfType (typeof(FMOD_StudioEventEmitter)) as FMOD_StudioEventEmitter[]; //Find all FMOD Emitters
 
@@ -45,9 +52,105 @@ public class AudioManager : MonoBehaviour
 				string estring = (emitter.gameObject.transform.parent.gameObject.GetHashCode() + "-" + emitter.asset.name).ToString();
 				
 				emitterlist.Add(estring,emitter);
+
+				FMOD.Studio.ParameterInstance Pi = null;
+				try
+				{
+					Pi = emitter.getParameter("type");
+				}
+				
+				catch
+				{
+
+				}
+				if (Pi != null)
+				{
+					typeParam.Add (estring, Pi);
+				}
+
+				Pi = null;
+				try
+				{
+					Pi = emitter.getParameter("texture");
+				}
+				
+				catch
+				{
+					
+				}
+				if (Pi != null)
+				{
+					textureParam.Add (estring, Pi);
+				}
 	        }
    		}
 	}
+
+	public static void AddEmitter(GameObject newObject)
+	{
+		FMOD_StudioEventEmitter[] emitters = newObject.GetComponentsInChildren<FMOD_StudioEventEmitter> ();
+		foreach (FMOD_StudioEventEmitter emitter in emitters)
+		{
+			if(emitter.asset != null)
+			{
+				string estring = (emitter.gameObject.transform.parent.gameObject.GetHashCode() + "-" + emitter.asset.name).ToString();
+				
+				emitterlist.Add(estring,emitter);
+				
+				FMOD.Studio.ParameterInstance Pi = null;
+				try
+				{
+					Pi = emitter.getParameter("type");
+				}
+				
+				catch
+				{
+					
+				}
+				if (Pi != null)
+				{
+					typeParam.Add (estring, Pi);
+				}
+				
+				Pi = null;
+				try
+				{
+					Pi = emitter.getParameter("texture");
+				}
+				
+				catch
+				{
+					
+				}
+				if (Pi != null)
+				{
+					textureParam.Add (estring, Pi);
+				}
+			}
+		}
+
+	}
+
+	public static void setType(string estring, float val)
+	{
+
+				FMOD.Studio.ParameterInstance pi = (FMOD.Studio.ParameterInstance)setType [estring];
+				if (pi != null) 
+				{
+						FMOD.RESULT res = pi.setValue (val);
+						
+				}
+	}
+	public static void setTexture(string estring, float val)
+	{
+			
+				FMOD.Studio.ParameterInstance pi = (FMOD.Studio.ParameterInstance)setTexture [estring];
+				if (pi != null) 
+				{
+						FMOD.RESULT res = pi.setValue (val);
+				}
+	}
+
 
 	public static bool PlayEmitter(string estring)  //Called To Play A Sound From Designated Emitter
 	{
