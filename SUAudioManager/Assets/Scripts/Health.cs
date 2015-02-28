@@ -113,17 +113,17 @@ public class Health : MonoBehaviour
 		//target is what hit me..
 		if(target != null)
 		{
-			gameObject.SendMessage("PlayHitSound",target);
-			//if(!SUAudioManager.Playhit(target,this.gameObject))
-			//{
-			//	Debug.Log("Play hit failed for " + target.name + " hitting " + this.gameObject);
-			//}
+			gameObject.SendMessage("PlayIFX",target);
+		//	if(!AudioManager.PlayIFX(target,this.gameObject))
+		//	{
+		//		Debug.Log("Play hit failed for " + target.name + " hitting " + this.gameObject);
+		//	}
 		}
 		else
 		{
 			Debug.Log("No hit target for " + gameObject.name);
 		}
-	//	if(!SUAudioManager.PlayEmitter( this.gameObject.GetHashCode(),SUAudioManager.soundevent.hit ))
+	//	if(!AudioManager.PlayEmitter( this.gameObject.GetHashCode(),AudioManager.soundevent.hit ))
 	//	{
 	//		//	Debug.Log("PlayHit failed on " + this.gameObject.GetHashCode());
 	//	}
@@ -292,7 +292,7 @@ public class Health : MonoBehaviour
 		}
 		if(other.name.Contains("musiczone"))
 		{
-
+			AudioManager.setType(gameObject.GetHashCode() + "-" + "music", 1f);
 
 			return;
 		}
@@ -331,7 +331,7 @@ public class Health : MonoBehaviour
 		}
 		if(other.name.Contains("musiczone"))
 		{
-		
+			AudioManager.setType(gameObject.GetHashCode() + "-" + "music", (float)0f);
 			return;
 		}
 		foreach(GameObject go in goList){

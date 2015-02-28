@@ -47,7 +47,7 @@ public class PlaySound : MonoBehaviour
 	}
 	public void PlayFootsteps()
 	{
-		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "FOOTSTEPS").ToString();
+		string fstring = (this.gameObject.GetHashCode() + "-" + "FOOTSTEPS").ToString();
 		AudioManager.PlayEmitter (fstring);
 
 	}
@@ -61,19 +61,19 @@ public class PlaySound : MonoBehaviour
 	*/
 	public void PlayVO()
 	{
-		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "VO").ToString();
+		string fstring = (this.gameObject.GetHashCode() + "-" + "VO").ToString();
 		AudioManager.PlayEmitter (fstring);
 	}
-	public void PlayIFX(GameObject objHitting)
+	public void PlayIFX(GameObject objHit)
 	{
 		int hitObjectType = 0;
-		hitObjectType = GetIDForTranslation ("hit" + gameObject.name);
-		AudioManager.setTexture(gameObject.transform.parent.gameObject.GetHashCode() + "-" + "IFX", (float)hitObjectType);
+		hitObjectType = GetIDForTranslation ("hitter" + gameObject.name);
+		AudioManager.setTexture(this.gameObject.GetHashCode() + "-" + "IFX", (float)hitObjectType);
 
-		if (objHitting != null) 
+		if (objHit != null) 
 		{
-			hitObjectType = GetIDForTranslation("hitter" + objHitting.name);
-			AudioManager.setType(gameObject.transform.parent.gameObject.GetHashCode() + "-" + "IFX", (float)hitObjectType);
+			hitObjectType = GetIDForTranslation("hit" + objHit.name);
+			AudioManager.setType(this.gameObject.GetHashCode() + "-" + "IFX", (float)hitObjectType);
 
 			}
 		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "IFX").ToString();
@@ -81,7 +81,7 @@ public class PlaySound : MonoBehaviour
 	}
 	public void PlayVFX()
 	{
-		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "VFX").ToString();
+		string fstring = (this.gameObject.GetHashCode() + "-" + "VFX").ToString();
 		AudioManager.PlayEmitter (fstring);
 	}
 /*	void PlayAmbience()
@@ -92,12 +92,12 @@ public class PlaySound : MonoBehaviour
 	*/
 	public void PlayMovement()
 	{
-		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "movement").ToString();
+		string fstring = (this.gameObject.GetHashCode() + "-" + "movement").ToString();
 		AudioManager.PlayEmitter (fstring);
 	}
 	public void PlayDeath()
 	{
-		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "death").ToString();
+		string fstring = (this.gameObject.GetHashCode() + "-" + "death").ToString();
 		AudioManager.PlayEmitter (fstring);
 	}
 /*	void PlayMyEmitter()
@@ -120,7 +120,7 @@ public class PlaySound : MonoBehaviour
 
 		return retValue;
 	}
-	void GetTextureName (string textureName)
+/*	void GetTextureName (string textureName)
 	{
 		if (Physics.Raycast (transform.position, rayDirection, ViewDistance)) {
 			Texture tempText = (hit.collider.gameObject.transform.parent.gameObject.renderer.material.GetTexture ("_MainTex"));
@@ -132,4 +132,5 @@ public class PlaySound : MonoBehaviour
 			Debug.Log ("No Texture Found");
 		}
 	}
+	 */
 }

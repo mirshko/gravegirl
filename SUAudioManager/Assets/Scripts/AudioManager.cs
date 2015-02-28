@@ -134,7 +134,9 @@ public class AudioManager : MonoBehaviour
 	public static void setType(string estring, float val)
 	{
 
+
 				FMOD.Studio.ParameterInstance pi = (FMOD.Studio.ParameterInstance)typeParam[estring];
+
 				if (pi != null) 
 				{
 						FMOD.RESULT res = pi.setValue (val);

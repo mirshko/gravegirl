@@ -75,10 +75,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="RAIN">
- <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/RAIN.dll</HintPath>
+ <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaform">
- <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/RAINMetaform.dll</HintPath>
+ <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
