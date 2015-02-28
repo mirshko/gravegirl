@@ -72,13 +72,14 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
+     <None Include="Assets\textureParameter.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
      <None Include="Assets\RAIN\ReleaseNotes.txt" />
      <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
      <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
      <None Include="Assets\World Assets\skybox\Skybox Blended.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
@@ -87,25 +88,25 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="RAIN">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/RAIN.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaform">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/RAINMetaform.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
  <Reference Include="AetherUnity">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/Editor/AetherUnity.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/AetherUnity.dll</HintPath>
  </Reference>
  <Reference Include="LegionRestModel">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/Editor/LegionRestModel.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/LegionRestModel.dll</HintPath>
  </Reference>
  <Reference Include="RAINEditor">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaformEditor">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINUpdater">
- <HintPath>/Users/lab/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINUpdater.dll</HintPath>
+ <HintPath>/Users/jreiner/Documents/GitHub/Gravegirl/SUAudioManager/Assets/RAIN/Editor/RAINUpdater.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>

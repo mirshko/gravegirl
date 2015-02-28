@@ -23,7 +23,7 @@ public class PlaySound : MonoBehaviour
 
 
 		
-		string[] lines = System.IO.File.ReadAllLines(@"FILEPATH");
+		string[] lines = System.IO.File.ReadAllLines(Application.dataPath + "/textureParameter.txt");
 		string[][] lineSplit = new string[lines.Length][];
 
 		int lineNum = 0;
@@ -45,7 +45,7 @@ public class PlaySound : MonoBehaviour
 		*/
 	
 	}
-	void PlayFootsteps()
+	public void PlayFootsteps()
 	{
 		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "FOOTSTEPS").ToString();
 		AudioManager.PlayEmitter (fstring);
@@ -59,12 +59,12 @@ public class PlaySound : MonoBehaviour
 		AudioManager.PlayEmitter (fstring);
 	}
 	*/
-	void PlayVO()
+	public void PlayVO()
 	{
 		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "VO").ToString();
 		AudioManager.PlayEmitter (fstring);
 	}
-	void PlayIFX(GameObject objHitting)
+	public void PlayIFX(GameObject objHitting)
 	{
 		int hitObjectType = 0;
 		hitObjectType = GetIDForTranslation ("hit" + gameObject.name);
@@ -79,7 +79,7 @@ public class PlaySound : MonoBehaviour
 		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "IFX").ToString();
 		AudioManager.PlayEmitter (fstring);
 	}
-	void PlayVFX()
+	public void PlayVFX()
 	{
 		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "VFX").ToString();
 		AudioManager.PlayEmitter (fstring);
@@ -90,12 +90,12 @@ public class PlaySound : MonoBehaviour
 		AudioManager.PlayEmitter (fstring);
 	}
 	*/
-	void PlayMovement()
+	public void PlayMovement()
 	{
 		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "movement").ToString();
 		AudioManager.PlayEmitter (fstring);
 	}
-	void PlayDeath()
+	public void PlayDeath()
 	{
 		string fstring = (gameObject.transform.parent.gameObject.GetHashCode() + "-" + "death").ToString();
 		AudioManager.PlayEmitter (fstring);

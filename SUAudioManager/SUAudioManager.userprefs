@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/guiscript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlaySound.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlaySound.cs" Line="57" Column="19" />
-      <File FileName="Assets/Scripts/AudioManager.cs" Line="26" Column="8" />
-      <File FileName="Assets/Scripts/CameraFade.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/scenefadeinout.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/guiscript.cs" Line="32" Column="28" />
+      <File FileName="Assets/Scripts/AudioManager.cs" Line="169" Column="5" />
+      <File FileName="Assets/Scripts/PlaySound.cs" Line="26" Column="68" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
