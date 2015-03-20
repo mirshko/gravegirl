@@ -48,13 +48,13 @@ public class ETPlayer : MonoBehaviour {
 		transform.rotation  = Quaternion.Euler( new Vector3(0,angle,0));
 		transform.Translate( Vector3.forward * move.joystickValue.magnitude * Time.deltaTime);	
 		
-		model.GetComponent<Animation>().CrossFade("Run");
+		model.animation.CrossFade("Run");
 
 	}
 	
 	void On_JoystickMoveEnd (MovingJoystick move)
 	{
-		model.GetComponent<Animation>().CrossFade("idle");
+		model.animation.CrossFade("idle");
 	}
 	
 	/*

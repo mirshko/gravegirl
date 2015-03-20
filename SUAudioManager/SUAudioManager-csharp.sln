@@ -29,11 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-																																																																																																																																																																																																																																																																																																																					GlobalSection(MonoDevelopProperties) = preSolution
-=======
-																																																																																																																																																																																																																																																																																																				GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> parent of c38a13f... Added Skeleton Damage, Player Hit Events
+																																																																																																																																																																																																																																																																																																					GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																																																																																																																																																																																																																																																																														GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> Stashed changes

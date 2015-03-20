@@ -142,7 +142,7 @@ public class Health : MonoBehaviour
 			dead = true;
 			//animation.Stop();
 			//animation.Play();
-			GetComponent<Animation>().CrossFade("die");
+			animation.CrossFade("die");
 			if(isPlayer){
 				Debug.Log ("stopping control and AI rig");
 				//no more move..
@@ -190,7 +190,7 @@ public class Health : MonoBehaviour
 				}
 			}
 //			UDEA.GameKeys.Add("skelkills",1);
-			GetComponent<Animation>().CrossFade("die");
+			animation.CrossFade("die");
 			StartCoroutine(WaitAndDestroy(4.0F));
 
 		}
@@ -219,14 +219,14 @@ public class Health : MonoBehaviour
 		if (atk > maxcombo) atk = 1;
 		if( atk < 1) atk = 1;
 
-		if(!GetComponent<Animation>().IsPlaying("attack1") 
-		        && !GetComponent<Animation>().IsPlaying("attack2") 
-		        && !GetComponent<Animation>().IsPlaying("attack3")&& !GetComponent<Animation>().IsPlaying("attack4")&& !GetComponent<Animation>().IsPlaying("attack5"))
+		if(!animation.IsPlaying("attack1") 
+		        && !animation.IsPlaying("attack2") 
+		        && !animation.IsPlaying("attack3")&& !animation.IsPlaying("attack4")&& !animation.IsPlaying("attack5"))
 		{
 			facetarget = true;
-			GetComponent<Animation>().Stop();
-			GetComponent<Animation>().Play("attack" + atk);
-			GetComponent<Animation>().CrossFadeQueued("idle");
+			animation.Stop();
+			animation.Play("attack" + atk);
+			animation.CrossFadeQueued("idle");
 			atk++;
 		}
 	}

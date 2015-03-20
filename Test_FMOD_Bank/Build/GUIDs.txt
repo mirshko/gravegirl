@@ -1,0 +1,4 @@
+{49a5598c-3c3f-4c69-9352-f2343d908198} event:/Skeleton Hit
+{98453e36-ae0a-4178-a918-4711d9880aca} bus:/
+{0a588edb-db79-45ea-b946-68e299594586} bus:/Reverb
+{165f62bf-bfca-4360-ac04-b2fb22366535} bank:/Master Bank

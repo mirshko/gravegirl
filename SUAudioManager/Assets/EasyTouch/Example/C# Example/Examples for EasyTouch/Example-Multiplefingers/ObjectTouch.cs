@@ -44,13 +44,13 @@ public class ObjectTouch : MonoBehaviour {
 	
 	void FixedUpdate(){
 	
-		Vector2 screenPos = cam.WorldToScreenPoint( GetComponent<Rigidbody>().position);
+		Vector2 screenPos = cam.WorldToScreenPoint( rigidbody.position);
 		
 		if ( screenPos.x> Screen.width ||screenPos.y<0 ||screenPos.y> Screen.height)
 			Destroy( gameObject);
 			
 		if (screenPos.x<transform.localScale.x/2){
-			GetComponent<Rigidbody>().AddForce( GetComponent<Rigidbody>().velocity *-100);
+			rigidbody.AddForce( rigidbody.velocity *-100);
 		}
 	}
 	
@@ -63,7 +63,7 @@ public class ObjectTouch : MonoBehaviour {
 	void On_TouchStart(Gesture gesture){
 		
 		if (gesture.pickObject == gameObject){
-			GetComponent<Rigidbody>().constraints  = RigidbodyConstraints.FreezeAll;
+			rigidbody.constraints  = RigidbodyConstraints.FreezeAll;
 		}
 	}
 	
@@ -73,7 +73,7 @@ public class ObjectTouch : MonoBehaviour {
 		if (gesture.pickObject == gameObject){
 			GameObject child=null;
 			
-			GetComponent<Rigidbody>().constraints  = RigidbodyConstraints.None;
+			rigidbody.constraints  = RigidbodyConstraints.None;
 			
 			foreach (Transform childreen in transform ){
 				if (childreen.name=="ring")
@@ -84,8 +84,8 @@ public class ObjectTouch : MonoBehaviour {
 		
 				GameObject ring = Instantiate(Resources.Load("Ring01"), transform.position , Quaternion.identity) as GameObject;
 				ring.transform.localScale = transform.localScale * 1.5f;
-				ring.AddComponent<SlowRotate>();
-				ring.GetComponent<Renderer>().material.SetColor ("_TintColor", GetComponent<Renderer>().material.GetColor("_TintColor"));
+				ring.AddComponent("SlowRotate");
+				ring.renderer.material.SetColor ("_TintColor", renderer.material.GetColor("_TintColor"));
 				
 				ring.transform.parent = transform;
 				ring.name="ring";
@@ -105,7 +105,7 @@ public class ObjectTouch : MonoBehaviour {
 		if (gesture.pickObject == gameObject){
 			GameObject child=null;
 			
-			GetComponent<Rigidbody>().constraints  = RigidbodyConstraints.None;
+			rigidbody.constraints  = RigidbodyConstraints.None;
 			
 			foreach ( Transform childreen in transform){
 				if (childreen.name=="ring")
@@ -123,9 +123,9 @@ public class ObjectTouch : MonoBehaviour {
 	
 		if (gesture.pickObject == gameObject){
 			Vector3 position = gesture.GetTouchToWordlPoint(8);
-			deltaPosition = position - GetComponent<Rigidbody>().position;
+			deltaPosition = position - rigidbody.position;
 			
-			GetComponent<Rigidbody>().constraints  = RigidbodyConstraints.None;
+			rigidbody.constraints  = RigidbodyConstraints.None;
 		}
 	}
 	
@@ -135,7 +135,7 @@ public class ObjectTouch : MonoBehaviour {
 		if (gesture.pickObject == gameObject){
 			Vector3 position = gesture.GetTouchToWordlPoint(8);
 			
-			GetComponent<Rigidbody>().position = position - deltaPosition;
+			rigidbody.position = position - deltaPosition;
 		}
 		
 	}
@@ -144,7 +144,7 @@ public class ObjectTouch : MonoBehaviour {
 	void On_DragEnd( Gesture gesture){
 	
 		if (gesture.pickObject == gameObject){
-			GetComponent<Rigidbody>().AddForce( gesture.deltaPosition *  gesture.swipeLength/10 );
+			rigidbody.AddForce( gesture.deltaPosition *  gesture.swipeLength/10 );
 		}
 		
 	}

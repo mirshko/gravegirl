@@ -27,7 +27,7 @@ public class TwoTap : MonoBehaviour {
 		// Verification that the action on the object
 		if (gesture.pickObject == gameObject){	
 
-			gameObject.GetComponent<Renderer>().material.color = new Color( Random.Range(0.0f,1.0f),  Random.Range(0.0f,1.0f), Random.Range(0.0f,1.0f));
+			gameObject.renderer.material.color = new Color( Random.Range(0.0f,1.0f),  Random.Range(0.0f,1.0f), Random.Range(0.0f,1.0f));
 		}
 	}
 }

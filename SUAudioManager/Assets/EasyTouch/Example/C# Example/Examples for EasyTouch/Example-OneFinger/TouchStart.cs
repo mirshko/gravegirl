@@ -35,7 +35,7 @@ public class TouchStart : MonoBehaviour {
 		
 		// Verification that the action on the object
 		if (gesture.pickObject == gameObject)
-			gameObject.GetComponent<Renderer>().material.color = new Color( Random.Range(0.0f,1.0f),  Random.Range(0.0f,1.0f), Random.Range(0.0f,1.0f));
+			gameObject.renderer.material.color = new Color( Random.Range(0.0f,1.0f),  Random.Range(0.0f,1.0f), Random.Range(0.0f,1.0f));
 	}
 	
 	// During the touch is down
@@ -51,7 +51,7 @@ public class TouchStart : MonoBehaviour {
 		
 		// Verification that the action on the object
 		if (gesture.pickObject == gameObject){
-			gameObject.GetComponent<Renderer>().material.color = new Color( 1f,1f,1f);
+			gameObject.renderer.material.color = new Color( 1f,1f,1f);
 			textMesh.text ="Touch Start/Up";
 		}
 	}

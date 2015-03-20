@@ -239,7 +239,7 @@ void  UpdateSmoothedMovementDirection ()
 				}
 				else
 				{
-					if(GetComponent<Animation>().IsPlaying(idleAnimation.name))
+					if(animation.IsPlaying(idleAnimation.name))
 					{
 						_characterState = CharacterState.Idle;
 						//////Debug.Log("Charstate to idle");
@@ -398,7 +398,7 @@ void Update ()
 		else if( _characterState == CharacterState.attacking){
 				////Debug.Log ("char state = attacking");
 
-				if(GetComponent<Animation>().IsPlaying(idleAnimation.name))
+				if(animation.IsPlaying(idleAnimation.name))
 				{ 
 			//		_characterState = CharacterState.Idle;
 			//		Debug.Log("Setting state to idle");
