@@ -16,7 +16,7 @@ public class vfxhit : MonoBehaviour
 	}
 	public void onGotHit()
 	{
-		particleSystem.Stop();
-		particleSystem.Play();
+		GetComponent<ParticleSystem>().Stop();
+		GetComponent<ParticleSystem>().Play();
 	}
 }

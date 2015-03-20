@@ -149,6 +149,11 @@ public class FMODEditorExtension : MonoBehaviour
 	
 	static void Update()
     {
+        if (EditorApplication.isCompiling)
+        {
+            UnloadAllBanks();
+        }
+		
         if (sFMODSystem != null && sFMODSystem.isValid())
 		{
 			ERRCHECK(sFMODSystem.update());
@@ -815,6 +820,7 @@ public class FMODEditorExtension : MonoBehaviour
 	
 	static void PrepareIntegration()
 	{
+		#if !UNITY_5_0
 		if (!UnityEditorInternal.InternalEditorUtility.HasPro())
 		{
 			Debug.Log("Unity basic license detected: running integration in Basic compatible mode");
@@ -831,7 +837,7 @@ public class FMODEditorExtension : MonoBehaviour
 					var dest = projectRoot.FullName + "/fmod.dll";
 					
 					DeleteBinaryFile(dest);						
-					fmodFile.CopyTo(dest);
+					fmodFile.MoveTo(dest);
 				}
 				
 				var studioFile = new System.IO.FileInfo(pluginPath + "fmodstudio.dll");
@@ -840,7 +846,7 @@ public class FMODEditorExtension : MonoBehaviour
 					var dest = projectRoot.FullName + "/fmodstudio.dll";
 					
 					DeleteBinaryFile(dest);
-					studioFile.CopyTo(dest);
+					studioFile.MoveTo(dest);
 				}
 			}
 			else if (Application.platform == RuntimePlatform.OSXEditor)
@@ -854,7 +860,7 @@ public class FMODEditorExtension : MonoBehaviour
 					var dest = projectRoot.FullName + "/fmod.dylib";
 					
 					DeleteBinaryFile(dest);
-					fmodFile.CopyTo(dest);
+					fmodFile.MoveTo(dest);
 				}
 				
 				var studioFile = new System.IO.FileInfo(pluginPath + "fmodstudio.bundle/Contents/MacOS/fmodstudio");
@@ -863,10 +869,11 @@ public class FMODEditorExtension : MonoBehaviour
 					var dest = projectRoot.FullName + "/fmodstudio.dylib";
 
 					DeleteBinaryFile(dest);
-					studioFile.CopyTo(dest);
+					studioFile.MoveTo(dest);
 				}
 			}
 		}
+		#endif
 	}
 	
 	static void DeleteBinaryFile(string path)

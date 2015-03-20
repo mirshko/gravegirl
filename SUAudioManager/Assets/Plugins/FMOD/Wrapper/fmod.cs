@@ -21,6 +21,8 @@ namespace FMOD
         public const string dll    = "__Internal";
 #elif (UNITY_PS4) && !UNITY_EDITOR
         public const string dll    = "libfmod";
+#elif (UNITY_PSP2) && !UNITY_EDITOR
+        public const string dll    = "libfmodstudio";
 #elif (UNITY_WIIU) && !UNITY_EDITOR
         public const string dll    = "libfmodstudio";
 #else
