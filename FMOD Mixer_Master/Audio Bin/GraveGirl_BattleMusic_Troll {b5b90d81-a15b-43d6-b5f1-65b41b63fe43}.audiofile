@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{b5b90d81-a15b-43d6-b5f1-65b41b63fe43}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>101.81818749999999</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/GraveGirl_BattleMusic_Troll {39d65fb4-6c00-43fb-a0f0-c9b613b7a394}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{bd2aa09f-4ae9-43b1-8858-1f99cf1b48be}</destination>
+        </relationship>
+    </object>
+</objects>

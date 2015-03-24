@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{f9219f8e-212b-426c-97e1-e71e6e39ca76}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>3.7274149659863944</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/VO_SCREAMS_GIRL_REVERBERATED_01 {a2e6b2f6-6803-4c11-a8de-6df52d0aa31b}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{bd2aa09f-4ae9-43b1-8858-1f99cf1b48be}</destination>
+        </relationship>
+    </object>
+</objects>

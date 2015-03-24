@@ -1,0 +1,57 @@
+{b50a8a75-5344-48cd-b8fc-955f05062b38} event:/common/IFX
+{05b0b211-486f-4368-be22-106031cd6dbf} event:/common/VFX
+{4e17fc4a-fae7-40de-b095-7ee66ae82b9a} event:/entity/player/death
+{67c932bf-2f99-48b6-99a8-135eb2e8d4d5} event:/entity/player/footsteps
+{8ca7f3e7-b60d-406e-8985-b03cb6d57940} event:/entity/player/movement
+{219ea3fe-4705-473a-b91d-9bffe3b0c86a} event:/entity/player/VFX
+{473e3de2-7d8b-4cf8-8cb9-286308bdbff7} event:/entity/skeleton/death
+{5c24bde6-bb3c-4f94-b87b-2fdf8e787d6d} event:/entity/skeleton/footsteps
+{86e834c3-9920-4f4d-99c5-e3fedca1d089} event:/entity/skeleton/movement
+{52c7c881-4548-42f9-8919-3afa19465112} event:/entity/skeleton/VFX
+{330de6fb-6b84-4963-8bb2-446f252142b3} event:/entity/troll/footsteps
+{bd4486f4-ec57-4869-a3ba-038561e2c24e} event:/entity/troll/movement
+{627711e4-bb4d-4b4c-886e-00cb5f296cde} event:/entity/troll/VFX
+{89bd9639-6ac4-4705-8764-27660aeabd09} event:/entity/troll/VOX
+{3bfd6c0b-933a-4591-9c1c-d8c0941cb94a} event:/scene/ambience
+{b7a25efa-6248-4d92-8bd0-2006066589c9} event:/scene/cinematic music
+{1428c811-f02b-444a-aad8-f069d7afdeb6} event:/scene/music
+{5b60fdb7-338a-4048-85fd-88cacd7b9599} event:/scene/VFX
+{39569da6-145c-478b-8614-6a04e649c310} event:/scene/VO
+{ffa6efa5-ea96-4ebb-866a-1de4023c1b8a} event:/master bank dummy
+{d1b0f4b1-433f-4b92-8980-ca00472408fa} bus:/
+{48bef4dc-541b-440d-9145-eff92a5ef8dc} bus:/Reverb
+{1eb089f1-80cd-4a28-bee6-862c52dce8f6} bus:/Ambience
+{5281232a-c629-4da7-a6b8-bcd38d82f339} bus:/Ambience/Environments
+{5c2fd5be-9d3b-433c-b442-9d2d3fd988f1} bus:/Ambience/Room Tones
+{6cb7ee7c-c8f6-4a49-a100-ccdfc00e2498} bus:/Ambience/Weather Systems
+{deb1fcfe-3755-499b-ae41-b72cca2707d7} bus:/MUSIC
+{00fb3fc4-0404-4f59-b7d5-a41a5cae6702} bus:/MUSIC/Incidental
+{274eaa2f-702b-4c61-8776-75b7854ec3a5} bus:/MUSIC/Underscore
+{f4411f04-1235-4c52-8c9e-854c61f8caa5} bus:/SFX
+{25215464-be49-4d6b-8d31-83db8e840758} bus:/SFX/Footsteps
+{d5583037-db2c-4706-8e8a-3ff848803a4c} bus:/SFX/IFX
+{8d1ddc7d-d436-4116-be14-9c35661225bb} bus:/SFX/VFX
+{d6bec1d2-4cc6-4c79-8ff3-a3d588782b73} bus:/UI
+{84677e96-a6a0-46fe-986d-84061d79b199} bus:/UI/Physical
+{a3c2ed0f-8c7f-4d9b-ab73-680843b5f2c4} bus:/VO
+{d8739626-b06e-41b4-a5f2-28fab330156a} bus:/VO/Bark System
+{e2ae64a8-1b53-4722-9999-b628c47f11a4} bank:/VO
+{bd226041-18e2-48bc-b592-651863e657eb} bank:/Master Bank
+{afb66ea0-820f-40a7-a459-8b4b133b8d31} bank:/footsteps
+{be08b144-e7ce-481b-9c80-91677aa3348d} bank:/ambience
+{2f37168b-f2b7-4539-b65f-e6aa1da39010} bank:/cinematic music
+{5ebc2044-1f00-44fc-8678-bcf6c21750eb} bank:/movement
+{d51c65cb-a720-4e8b-875a-ccd7ca020ff5} bank:/movement
+{677085a8-1dda-4ec0-81c0-efcd88ee8ba3} bank:/VOX
+{6feb115f-a3ef-421e-9c7e-a00cdd884037} bank:/VFX
+{2208c21e-039a-45e5-9d64-3117f818c90f} bank:/VFX
+{000c7f59-0f6b-4ee6-97e8-6e52d5856c19} bank:/movement
+{b878ad6e-b6f3-4cb2-a3ec-ed683a45748d} bank:/death
+{09919690-0371-4d22-af8c-ffb385be9b20} bank:/footsteps
+{83da6492-758e-4a52-a54a-4e6d443a95d7} bank:/VFX
+{a2a45241-c303-4dee-b00b-23a236fbdd8a} bank:/IFX
+{75a998b8-ce28-41ac-9a81-9b8157f642a5} bank:/VFX
+{0624d5d5-f257-4ce1-99e4-37885d630eee} bank:/death
+{fb345eb8-4f45-4711-b0bb-901974ede8a2} bank:/footsteps
+{1fd6f5d1-3926-44a7-84ce-cc931a712250} bank:/VFX
+{eca46afe-5932-4424-aad1-2dd3ebe8609c} bank:/music

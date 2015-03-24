@@ -1,2 +1,11 @@
-Master Bank.bank
+IFX.bank
 Master Bank.strings.bank
+VFX.bank
+VO.bank
+VOX.bank
+ambience.bank
+cinematic music.bank
+death.bank
+footsteps.bank
+movement.bank
+music.bank
